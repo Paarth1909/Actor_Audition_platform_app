@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "706211967695",
+    "project_id": "actorsauditionplatform",
+    "storage_bucket": "actorsauditionplatform.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706211967695:android:2ea6b6aa05366283497dba",
+        "android_client_info": {
+          "package_name": "com.example.actors_audition_platform_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDScb2Hx7lVD9Sz3GirtVH-4P49h4szFz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

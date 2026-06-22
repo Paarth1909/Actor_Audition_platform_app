@@ -1,0 +1,29 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "actorsauditionplatform",
+          "appId": "1:706211967695:android:2ea6b6aa05366283497dba",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "actorsauditionplatform",
+          "configurations": {
+            "android": "1:706211967695:android:2ea6b6aa05366283497dba",
+            "ios": "1:706211967695:ios:669db7fefea76ca3497dba",
+            "macos": "1:706211967695:ios:669db7fefea76ca3497dba",
+            "web": "1:706211967695:web:50a00de71a9e8be9497dba",
+            "windows": "1:706211967695:web:4befa5013778bced497dba"
+          }
+        }
+      }
+    }
+  }
+}

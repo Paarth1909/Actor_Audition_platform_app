@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "auditions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "director_uid", "order": "ASCENDING" },
+        { "fieldPath": "created_at", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "applications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "director_uid", "order": "ASCENDING" },
+        { "fieldPath": "applied_at", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "applications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "actor_uid", "order": "ASCENDING" },
+        { "fieldPath": "applied_at", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "applications",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "audition_id", "order": "ASCENDING" },
+        { "fieldPath": "actor_uid", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
