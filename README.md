@@ -231,8 +231,7 @@ This project demonstrates:
 ## 👨‍💻 Author
 
 **Parth Rastogi**
-
-BCA Student | Flutter Developer
+ | Flutter Developer
 
 ### Skills Demonstrated
 
